@@ -1,0 +1,3 @@
+/home/pserkyt/Projects/opengl_scene/build/CMakeFiles/rebuild_cache.dir
+/home/pserkyt/Projects/opengl_scene/build/CMakeFiles/edit_cache.dir
+/home/pserkyt/Projects/opengl_scene/build/CMakeFiles/final.dir
