@@ -59,7 +59,8 @@ $ brew install glew
 ```
 
 Command line tools: (if not installed)
-
-`$ xcode-select --install`
+```
+$ xcode-select --install
+```
 
 Open with CMake, configure, generate, and build.
