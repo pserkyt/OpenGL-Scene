@@ -22,17 +22,23 @@ Simply open cs330.sln in Visual Studio 2019 to compile.
 
 ### Linux:
 Install dependencies (for Debian-based systems):
-`$ sudo apt install build-essential cmake
-$ sudo apt install libglfw3-dev libglew-dev`
+```
+$ sudo apt install build-essential cmake
+$ sudo apt install libglfw3-dev libglew-dev
+```
 
 Compile with CMake:
-`$ mkdir build
+```
+$ mkdir build
 $ cd build
 $ cmake ../ -G "Unix Makefiles"
-$ make -j4`
+$ make -j4
+```
 
 Run:
-`$ ./final`
+```
+$ ./final
+```
 
 ### Mac OSX:
 Download and install CMake. (https://cmake.org/)
@@ -41,15 +47,19 @@ Mac comes with OpenGL and DL libraries installed.
 GLM and STB files included.
 
 Macports: (recommended - everything installed to /opt/local)
-`$ sudo port install glfw
-$ sudo port install glew`
+```
+$ sudo port install glfw
+$ sudo port install glew
+```
 
 Homebrew: (alternative)
-`$ brew install glfw
-$ brew install glew`
+```
+$ brew install glfw
+$ brew install glew
+```
 
 Command line tools: (if not installed)
+
 `$ xcode-select --install`
 
 Open with CMake, configure, generate, and build.
-
